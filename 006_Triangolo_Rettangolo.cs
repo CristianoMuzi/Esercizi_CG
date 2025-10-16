@@ -1,11 +1,10 @@
 using System;
 
-namespace quiz
+// Il namespace dovrà essere il vostro e non "Esercizi_CG"
+namespace Esercizi_CG
 {
     class Program
     {
-
-
         static void Main(string[] args)
         {
 
@@ -22,7 +21,7 @@ namespace quiz
             // Il teorema di Pitagora dice che in un triangolo rettangolo, 
             // l'area del quadrato costruito sull'ipotenusa è uguale alla somma delle aree dei quadrati costruiti sui due cateti.
             // Quindi se la somma di lato_corto1 alla seconda e lato_corto2 alla seconda sarà UGUALE (==) a lato_lungo alla seconda
-            // allora questo sarà un trriangolo rettangolo
+            // allora questo sarà un triangolo rettangolo
             bool triangolo_rettangolo = Math.Pow(lato_corto1, 2) + Math.Pow(lato_corto2, 2) == Math.Pow(lato_lungo, 2);
 
 

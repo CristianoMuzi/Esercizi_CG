@@ -1,10 +1,10 @@
 using System;
 
-namespace quiz
+// Il namespace dovrà essere il vostro e non "Esercizi_CG"
+namespace Esercizi_CG
 {
     class Program
     {
-
 
         static void Main(string[] args)
         {

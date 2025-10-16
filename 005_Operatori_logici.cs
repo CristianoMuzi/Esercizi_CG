@@ -1,6 +1,7 @@
 using System;
 
-namespace quiz
+// Il namespace dovrà essere il vostro e non "Esercizi_CG"
+namespace Esercizi_CG
 {
     class Program
     {
@@ -13,7 +14,7 @@ namespace quiz
             // Operatore matematico == pari
             // Operatore matematico != diverso
             // Operatore logico && vuol dire "e" tutte le condizioni devono essere soddisfatte
-            // Operatore logico || vuol dire "oppure" - deve esseresoddisfatta una condizione
+            // Operatore logico || vuol dire "oppure" - deve essere soddisfatta una condizione
             // Operatore logico ! cambia il valore logico nel contrario, ad esempio, !true == false
 
 
